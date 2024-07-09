@@ -1,0 +1,61 @@
+* {
+    background-color: bisque;
+} 
+
+nav {
+    display: flex; 
+    justify-content: end;
+}
+nav a {
+    margin-right: 5px;
+    font-weight: bold;
+    color: #474747;
+}
+
+a:hover {
+    color: blue;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    border: 2px solid black;
+    text-align: center;
+    background-color: #474747;
+    color: aliceblue;
+} 
+td {
+    border: 1px solid black;
+    background-color: #474747;
+    color: aliceblue;
+}
+th { 
+    border: 1px solid black;
+    background-color: #474747;
+    color: aliceblue;
+}
+
+table a {
+    background-color: #474747;
+    color: aqua;
+} 
+
+.about-me {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.about-me img {
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+}
+.about-me p {
+    padding: 5px;
+}
